@@ -19,6 +19,7 @@ header {
 }
 #dataType {
   text-align: center;
+  color: yellow;
 }
 .map-section {
   display: flex;
@@ -48,10 +49,18 @@ header {
   margin-top: 10px;
   border: none;
 }
+#rewardsSelect {
+  font-size: 16;
+  font-weight: bold;
+  height: 27.5px;
+}
 .download {
   width: 60%;
   margin: auto;
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
+}
+.download h2 {
+  color: yellow;
 }
